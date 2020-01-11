@@ -1,0 +1,16 @@
+type Query {
+  todos: [Todos!]!
+}
+type Todos {
+  id: ID!
+  value: String!
+}
+# type Friends {
+#   id: ID!
+#   name: String!
+# }
+type Mutation {
+  add(value: String!): Todos
+  delete(id: ID!): Todos
+  update(id: ID!, value: String!): Todos
+}

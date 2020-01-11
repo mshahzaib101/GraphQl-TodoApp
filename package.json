@@ -1,0 +1,12 @@
+{
+  "name": "todo-app-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Muhammad Shahzaib",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
